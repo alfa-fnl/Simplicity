@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ModularityTestingApp/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "30.0.1",
+          "Siticone.Desktop.UI": "2.1.1"
+        },
+        "runtime": {
+          "ModularityTestingApp.dll": {}
+        }
+      },
+      "CsvHelper/30.0.1": {
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "assemblyVersion": "30.0.0.0",
+            "fileVersion": "30.0.1.0"
+          }
+        }
+      },
+      "Siticone.Desktop.UI/2.1.1": {
+        "runtime": {
+          "lib/net40/Siticone.Desktop.UI.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModularityTestingApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/30.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rcZtgbWR+As4G3Vpgx0AMNmShGuQLFjkHAPIIflzrfkJCx8/AOd4m96ZRmiU1Wi39qS5UVjV0P8qdgqOo5Cwyg==",
+      "path": "csvhelper/30.0.1",
+      "hashPath": "csvhelper.30.0.1.nupkg.sha512"
+    },
+    "Siticone.Desktop.UI/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ra7IVuwB11Q2yCo541FcPFmcxDyY7TSUmGg2ddbf+rNN18NrPXJ2CKMY0ZbuL+JRIig/jrJcU7ymJHfxKnEWvw==",
+      "path": "siticone.desktop.ui/2.1.1",
+      "hashPath": "siticone.desktop.ui.2.1.1.nupkg.sha512"
+    }
+  }
+}

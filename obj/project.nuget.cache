@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "MDZC1rPsDZnxq98R4RaG0LFPlr09ifJV61UDy2SgX63N81PQ1TGx2TC2kVKeyrDMueLH4JxK36x5vmwILylkWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fathu\\Downloads\\ModularityTestingApp-master\\ModularityTestingApp-master\\ModularityTestingApp\\ModularityTestingApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fathu\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\fathu\\.nuget\\packages\\siticone.desktop.ui\\2.1.1\\siticone.desktop.ui.2.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Siticone.Desktop.UI 2.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Siticone.Desktop.UI",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
