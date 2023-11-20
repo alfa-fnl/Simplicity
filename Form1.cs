@@ -10,7 +10,7 @@ using System.IO;
 using System.Globalization;
 using CsvHelper.Configuration;
 
-namespace ModularityTestingApp
+namespace Simplicity
 {
     public partial class Form1 : Form
     {
