@@ -36,8 +36,8 @@
             this.number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.className = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.occurance = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fanIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.modularity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comment = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.simplicity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -85,8 +85,8 @@
             this.number,
             this.className,
             this.occurance,
-            this.fanIn,
-            this.modularity});
+            this.comment,
+            this.simplicity});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(157, 0);
             this.dataGridView1.Name = "dataGridView1";
@@ -126,12 +126,12 @@
             // occurance
             // 
             this.occurance.FillWeight = 147.1076F;
-            this.occurance.HeaderText = "Number of Object Occurance";
+            this.occurance.HeaderText = "Occurance";
             this.occurance.MinimumWidth = 6;
             this.occurance.Name = "occurance";
             this.occurance.ReadOnly = true;
             // 
-            // fanIn
+            // comment
             // 
             this.fanIn.FillWeight = 51.70429F;
             this.fanIn.HeaderText = "Comment";
@@ -139,13 +139,13 @@
             this.fanIn.Name = "comment";
             this.fanIn.ReadOnly = true;
             // 
-            // modularity
+            // simplicity
             // 
-            this.modularity.FillWeight = 75.03303F;
-            this.modularity.HeaderText = "Simplicity";
-            this.modularity.MinimumWidth = 6;
-            this.modularity.Name = "simplicity";
-            this.modularity.ReadOnly = true;
+            this.simplicity.FillWeight = 75.03303F;
+            this.simplicity.HeaderText = "Simplicity";
+            this.simplicity.MinimumWidth = 6;
+            this.simplicity.Name = "simplicity";
+            this.simplicity.ReadOnly = true;
             // 
             // Form1
             // 
@@ -171,7 +171,7 @@
         private DataGridViewTextBoxColumn number;
         private DataGridViewTextBoxColumn className;
         private DataGridViewTextBoxColumn occurance;
-        private DataGridViewTextBoxColumn fanIn;
-        private DataGridViewTextBoxColumn modularity;
+        private DataGridViewTextBoxColumn comment;
+        private DataGridViewTextBoxColumn simplicity;
     }
 }
